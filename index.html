@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Dekko&family=Eczar:wght@600&family=Edu+NSW+ACT+Foundation&family=Edu+QLD+Beginner&family=Great+Vibes&family=Italiana&family=Kalam:wght@300&family=Mrs+Saint+Delafield&family=The+Nautigal:wght@700&family=Viaoda+Libre&family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
+
+	<title> Password </title>
+	<script>
+		function checkpassword() {
+			var password = document.getElementById("passwordbox");
+			var passwordText= password.value;
+			if(passwordText== "crochet101") {
+				return true;
+			}
+			else{
+
+				alert("eww that tasted like vegetables D:<");
+				return false;
+			}
+			
+		}
+	</script>
+
+	<style type="text/css">
+		body {
+			background-image: url("https://i0.wp.com/www.domesblissity.com/wp-content/uploads/2018/05/photo-1470049384172-927891aad5e9.jpg?fit=750%2C500&ssl=1");background-repeat:no-repeat  ;
+				background-position: center;
+				background-attachment: fixed;
+				background-size: cover;
+
+		}
+
+		section.words{
+			
+			text-align: center;
+			padding: 150px 150px;
+			font-family: 'Viaoda Libre', cursive;
+		
+		}
+
+		section.words span{
+			display: table;
+   			margin: 0px auto 0px auto;
+    		padding:5px;
+    		font-size:180%;
+    		background-color:#D2D2CE;
+    		color:#ffffff;
+    		padding:  25px 45px;
+    	
+
+	
+		}
+	</style>
+
+</head>
+<body>
+
+<section class=words>
+
+	<span>
+	<p style= "font-family: 'Great Vibes', cursive; font-size: 170%">Letter Eater </p>	
+	<p> Feed me the letters necessary to access my site!
+	<br></p>
+	<p>Letters: <input id="passwordbox" type="password"> </p>
+
+
+
+	<button style= "background-color:#C6BBB6; 
+	border-color:#C6BBB6;"><a style="color:#ffffff;" href="Crochet.html" onclick="return checkpassword()"target="_blank"> <i style="font-family: 'Edu QLD Beginner', cursive; font-size:15px">nom nom nom</i></a></button> 
+	</span>
+
+	
+</section>
+
+</body>
+</html>
